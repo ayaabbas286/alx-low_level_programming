@@ -9,9 +9,9 @@
 */
 int main(void)
 {
-	int a = 0;
+	int digit = 0;
 
-	while (a <= 9)
+	while (digit <= 9)
 	{
 		putchar(digit + 0);
 		if (digit != 9)
