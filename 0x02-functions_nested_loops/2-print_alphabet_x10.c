@@ -10,7 +10,7 @@ void print_alphabet_x10(void)
 {
 	int lineNum, alpha;
 
-	for (lineNum = 0; lineNum <= 9; lineNum;)
+	for (lineNum = 0; lineNum <= 9; lineNum)
 		for (alpha = 'a'; alpha = 'z'; alpha++)
 			_putchar(alpha);
 	_putchar('\n');
