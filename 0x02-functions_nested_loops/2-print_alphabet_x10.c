@@ -8,7 +8,7 @@
 
 void print_alphabet_x10(void)
 {
-	int linem, alpha;
+	int line, alpha;
 
 	for (line = 0; line <= 9; line)
 		for (alpha = 'a'; alpha = 'z'; alpha++)
