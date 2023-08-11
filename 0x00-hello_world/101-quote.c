@@ -2,15 +2,12 @@
 /**
  * main - Entry point
  *
- * Description: print a qoute using write function
- * writing(int fd,cont void *buf,size_t count)
- *
- * Return: 1 (not success)
-*/
+ * Return: Always 1 (Success)
+ */
 int main(void)
 {
-        char quo[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
-        
-        write(1, quo, 59);
-        return (1);
+	char str1[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
+
+	write(2, str1, 59);
+	return (1);
 }
